@@ -33,20 +33,25 @@ const AboutApp: React.FC = () => {
       philosophyText: "Kode bukan hanya tentang memecahkan masalah—ini tentang menciptakan pengalaman, membangun komunitas, dan membuat yang mustahil menjadi mungkin. Setiap baris kode adalah kesempatan untuk membuat dunia sedikit lebih baik.",
       achievementsList: [
         {
-          title: "Daftar Dekan",
-          description: "Penghargaan Keunggulan Akademik selama 4 semester berturut-turut",
-          date: "2023-2024"
+          title: "comming soon",
+          description: "comming soon",
+          date: "comming soon"
         },
-        {
-          title: "Pemenang Hackathon",
-          description: "Juara 1 dalam Tantangan Inovasi Teknologi Universitas",
-          date: "2024"
-        },
-        {
-          title: "Kontributor Open Source",
-          description: "Kontributor aktif pada 15+ proyek open source",
-          date: "2023-Sekarang"
-        }
+        // {
+        //   title: "Daftar Dekan",
+        //   description: "Penghargaan Keunggulan Akademik selama 4 semester berturut-turut",
+        //   date: "2023-2024"
+        // },
+        // {
+        //   title: "Pemenang Hackathon",
+        //   description: "Juara 1 dalam Tantangan Inovasi Teknologi Universitas",
+        //   date: "2024"
+        // },
+        // {
+        //   title: "Kontributor Open Source",
+        //   description: "Kontributor aktif pada 15+ proyek open source",
+        //   date: "2023-Sekarang"
+        // }
       ],
       interestsList: [
         { name: "Coding", icon: Coffee, color: "from-yellow-400 to-yellow-600" },
