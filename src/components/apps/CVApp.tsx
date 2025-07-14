@@ -106,20 +106,20 @@ const CVApp: React.FC = () => {
         {
           name: "Pemrograman Java",
           issuer: "Dicoding",
-          date: "2025",
+          date: "2024",
           credentialId: "GRX53Y78YZ0M"
         },
         {
           name: "AWS Certified AI-Practitioner",
           issuer: "Amazon Web Services",
-          date: "2024",
-          // credentialId: "AWS-AI-2024-001"
+          date: "Comming Soon",
+          credentialId: "Comming Soon"
         },
         {
           name: "Designing Azure Infrastructure Solutions (AZ-305)",
           issuer: "Microsoft Azure",
-          date: "2024",
-          // credentialId: "AZ305-2024-001"
+          date: "Comming Soon",
+          credentialId: "Comming Soon"
         }
       ],
       projectsData: [
@@ -243,20 +243,20 @@ const CVApp: React.FC = () => {
         {
           name: "Java Programming",
           issuer: "Dicoding",
-          date: "2025",
+          date: "2024",
           credentialId: "GRX53Y78YZ0M"
         },
         {
           name: "AWS Certified AI-Practitioner",
           issuer: "Amazon Web Services",
-          date: "2024",
-          // credentialId: "AWS-AI-2024-001"
+          date: "Comming Soon",
+          credentialId: "Comming Soon"
         },
         {
           name: "Designing Azure Infrastructure Solutions (AZ-305)",
           issuer: "Microsoft Azure",
-          date: "2024",
-          // credentialId: "AZ305-2024-001"
+          date: "Comming Soon",
+          credentialId: "Comming Soon"
         }
       ],
       projectsData: [
