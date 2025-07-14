@@ -29,22 +29,22 @@ const CVApp: React.FC = () => {
       student: "Mahasiswa S1 Teknik Informatika",
       semester: "Semester 4",
       experience: [
+        // {
+        //   title: "Magang Pemrograman Konten & Data Olahraga",
+        //   company: "Media Sports Company",
+        //   period: "2024",
+        //   location: "Remote",
+        //   achievements: [
+        //     "Manajemen dan penjadwalan konten olahraga di platform CMS",
+        //     "Pemantauan data statistik pertandingan dan integrasi metadata deskriptif",
+        //     "Optimasi workflow konten untuk meningkatkan efisiensi publikasi",
+        //     "Kolaborasi dengan tim editorial untuk standarisasi format data"
+        //   ]
+        // },
         {
-          title: "Magang Pemrograman Konten & Data Olahraga",
-          company: "Media Sports Company",
-          period: "2024",
-          location: "Remote",
-          achievements: [
-            "Manajemen dan penjadwalan konten olahraga di platform CMS",
-            "Pemantauan data statistik pertandingan dan integrasi metadata deskriptif",
-            "Optimasi workflow konten untuk meningkatkan efisiensi publikasi",
-            "Kolaborasi dengan tim editorial untuk standarisasi format data"
-          ]
-        },
-        {
-          title: "Magang Pengembangan Web Full Stack",
+          title: "Project Pengembangan Web Full Stack",
           company: "Tech Development Company",
-          period: "2024",
+          period: "2025",
           location: "Blitar, Jawa Timur",
           achievements: [
             "Pengembangan end-to-end aplikasi web menggunakan Laravel, React.js, dan Node.js",
@@ -54,9 +54,9 @@ const CVApp: React.FC = () => {
           ]
         },
         {
-          title: "Magang Pengembangan Backend",
+          title: "Project Pengembangan Backend",
           company: "Software Solutions",
-          period: "2023-2024",
+          period: "2025",
           location: "Blitar, Jawa Timur",
           achievements: [
             "Desain dan implementasi RESTful API, JWT authentication",
@@ -68,8 +68,8 @@ const CVApp: React.FC = () => {
         {
           title: "Magang IT Support & System Administration",
           company: "Local IT Services",
-          period: "2023",
-          location: "Blitar, Jawa Timur",
+          period: "2022",
+          location: "Kediri, Jawa Timur",
           achievements: [
             "Instalasi, konfigurasi, dan perawatan PC/Server (Windows & Linux)",
             "Setup dan troubleshooting LAN/Wi-Fi serta jaringan internal kecil",
@@ -166,22 +166,22 @@ const CVApp: React.FC = () => {
       student: "Informatics Engineering Student",
       semester: "4th Semester",
       experience: [
+        // {
+        //   title: "Sports Content & Data Programming Internship",
+        //   company: "Media Sports Company",
+        //   period: "2024",
+        //   location: "Remote",
+        //   achievements: [
+        //     "Management and scheduling of sports content on CMS platform",
+        //     "Monitoring match statistics data and descriptive metadata integration",
+        //     "Content workflow optimization to improve publication efficiency",
+        //     "Collaboration with editorial team for data format standardization"
+        //   ]
+        // },
         {
-          title: "Sports Content & Data Programming Internship",
-          company: "Media Sports Company",
-          period: "2024",
-          location: "Remote",
-          achievements: [
-            "Management and scheduling of sports content on CMS platform",
-            "Monitoring match statistics data and descriptive metadata integration",
-            "Content workflow optimization to improve publication efficiency",
-            "Collaboration with editorial team for data format standardization"
-          ]
-        },
-        {
-          title: "Full Stack Web Development Internship",
+          title: "Full Stack Web Development Project",
           company: "Tech Development Company",
-          period: "2024",
+          period: "2025",
           location: "Blitar, East Java",
           achievements: [
             "End-to-end web application development using Laravel, React.js, and Node.js",
@@ -191,9 +191,9 @@ const CVApp: React.FC = () => {
           ]
         },
         {
-          title: "Backend Development Internship",
+          title: "Backend Development Project",
           company: "Software Solutions",
-          period: "2023-2024",
+          period: "2025",
           location: "Blitar, East Java",
           achievements: [
             "Design and implementation of RESTful API, JWT authentication",
@@ -206,7 +206,7 @@ const CVApp: React.FC = () => {
           title: "IT Support & System Administration Internship",
           company: "Local IT Services",
           period: "2023",
-          location: "Blitar, East Java",
+          location: "Kediri, East Java",
           achievements: [
             "Installation, configuration, and maintenance of PC/Server (Windows & Linux)",
             "Setup and troubleshooting of LAN/Wi-Fi and small internal networks",
