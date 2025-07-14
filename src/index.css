@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  .glow {
+    box-shadow: 0 0 20px rgba(0, 245, 255, 0.3);
+  }
+  
+  .glow-hover:hover {
+    box-shadow: 0 0 25px rgba(0, 245, 255, 0.5);
+  }
+  
+  .scan-line {
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 245, 255, 0.1) 50%,
+      transparent 100%
+    );
+    animation: scan 2s ease-in-out infinite;
+  }
+  
+  @keyframes scan {
+    0% { transform: translateY(-100vh); }
+    100% { transform: translateY(100vh); }
+  }
+  
+  .matrix-bg {
+    background-image: 
+      radial-gradient(2px 2px at 20px 30px, #00f5ff, transparent),
+      radial-gradient(2px 2px at 40px 70px, #8b5cf6, transparent),
+      radial-gradient(1px 1px at 90px 40px, #00ff41, transparent),
+      radial-gradient(1px 1px at 130px 80px, #ff0080, transparent),
+      radial-gradient(2px 2px at 160px 30px, #00f5ff, transparent);
+    background-repeat: repeat;
+    background-size: 200px 100px;
+    animation: matrix-move 20s linear infinite;
+  }
+  
+  @keyframes matrix-move {
+    0% { background-position: 0 0; }
+    100% { background-position: 200px 100px; }
+  }
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 245, 255, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 245, 255, 0.5);
+}
+
+/* Selection */
+::selection {
+  background: rgba(0, 245, 255, 0.3);
+  color: white;
+}
