@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: "Project Kasir Laravel",
       description: "Full Stack POS Application dengan Laravel backend dan responsive frontend. Fitur lengkap: manajemen produk, real-time inventory, dashboard analytics, role-based authentication, dan export laporan PDF.",
-      image: "https://iili.io/FEOlln4.jpg",
+      image: "https://raw.githubusercontent.com/divaul/divaul/refs/heads/main/pixel/gambar1.png",
       technologies: ["Laravel", "PHP", "MySQL", "Bootstrap", "JavaScript", "Chart.js"],
       github: "https://github.com/hydarlm/Project-Kasir-Laravel",
       live: "#",
