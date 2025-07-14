@@ -84,21 +84,26 @@ const AboutApp: React.FC = () => {
       ],
       philosophyText: "Code is not just about solving problems—it's about creating experiences, building communities, and making the impossible possible. Every line of code is an opportunity to make the world a little bit better.",
       achievementsList: [
-        {
-          title: "Dean's List",
-          description: "Academic Excellence Award for 4 consecutive semesters",
-          date: "2023-2024"
+                {
+          title: "comming soon",
+          description: "comming soon",
+          date: "comming soon"
         },
-        {
-          title: "Hackathon Winner",
-          description: "1st place in University Tech Innovation Challenge",
-          date: "2024"
-        },
-        {
-          title: "Open Source Contributor",
-          description: "Active contributor to 15+ open source projects",
-          date: "2023-Present"
-        }
+        // {
+        //   title: "Dean's List",
+        //   description: "Academic Excellence Award for 4 consecutive semesters",
+        //   date: "2023-2024"
+        // },
+        // {
+        //   title: "Hackathon Winner",
+        //   description: "1st place in University Tech Innovation Challenge",
+        //   date: "2024"
+        // },
+        // {
+        //   title: "Open Source Contributor",
+        //   description: "Active contributor to 15+ open source projects",
+        //   date: "2023-Present"
+        // }
       ],
       interestsList: [
         { name: "Coding", icon: Coffee, color: "from-yellow-400 to-yellow-600" },
