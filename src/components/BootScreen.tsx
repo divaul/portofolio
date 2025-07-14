@@ -10,7 +10,7 @@ const BootScreen: React.FC<BootScreenProps> = ({ onBootComplete }) => {
   const [progress, setProgress] = useState(0);
 
   const bootMessages = [
-    "SistemKu v2.4.7 - Sistem Operasi Personal",
+    "emyuelOS v2.4.7 - Sistem Operasi Personal",
     "Menginisialisasi prosesor quantum...",
     "Memuat driver jaringan neural...",
     "Menghubungkan ke matrix...",
@@ -53,7 +53,7 @@ const BootScreen: React.FC<BootScreenProps> = ({ onBootComplete }) => {
       <div className="relative z-10 text-center max-w-2xl px-8">
         <div className="mb-8">
           <div className="text-4xl font-bold text-cyan-400 mb-2 glow">
-            SistemKu
+            emyuelOS
           </div>
           <div className="text-cyan-300 text-sm">Sistem Operasi Personal</div>
         </div>
