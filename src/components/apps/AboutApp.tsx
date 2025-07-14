@@ -55,7 +55,7 @@ const AboutApp: React.FC = () => {
       ],
       interestsList: [
         { name: "Coding", icon: Coffee, color: "from-yellow-400 to-yellow-600" },
-        { name: "Listening to music", icon: Music, color: "from-purple-400 to-purple-600" },
+        { name: "Mendengar Musik", icon: Music, color: "from-purple-400 to-purple-600" },
         { name: "Fotografi", icon: Camera, color: "from-blue-400 to-blue-600" },
         { name: "Gaming", icon: TowerControl, color: "from-green-400 to-green-600" }
       ]
@@ -107,7 +107,7 @@ const AboutApp: React.FC = () => {
       ],
       interestsList: [
         { name: "Coding", icon: Coffee, color: "from-yellow-400 to-yellow-600" },
-        { name: "Music Production", icon: Music, color: "from-purple-400 to-purple-600" },
+        { name: "Listening to music", icon: Music, color: "from-purple-400 to-purple-600" },
         { name: "Photography", icon: Camera, color: "from-blue-400 to-blue-600" },
         { name: "Gaming", icon: TowerControl, color: "from-green-400 to-green-600" }
       ]
